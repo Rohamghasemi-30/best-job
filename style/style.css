@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contaner {
+  padding: 20px 50px 20px 50px;
+}
+
+body.dark {
+  background-color: #000;
+}
+body.dark main header nav ul li a {
+  color: #ffffff !important;
+}
+body.dark main header nav ul button {
+  color: #ffffff;
+}
+body.dark main .middle .typing-left p {
+  color: #ffffff;
+}
+body.dark main .middle .typing-right .typing-right__about p {
+  color: #ffffff;
+}
+body.dark main .Recruitment .Recruitment__login a {
+  color: #ffffff !important;
+}
+
+body main header nav ul {
+  list-style: none;
+}
+body main header nav ul li a {
+  text-decoration: none;
+}
+body main header nav ul button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+body main header .over {
+  width: 50%;
+  height: 100px;
+}
+body main header .carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+}
+body main header .carousel .carousel-inner .images {
+  width: 100%;
+  height: 500px;
+}
+body main .middle .typing-left {
+  height: 250px;
+}
+body main .middle .typing-left p {
+  width: 350px;
+}
+body main .middle .image-right {
+  height: 250px;
+}
+body main .middle .typing-right {
+  direction: rtl;
+}
+body main .middle .typing-right .typing-right__about {
+  width: 40%;
+}
+body main .middle .typing-right .typing-right__about p {
+  width: 350px;
+}
+body main .middle .typing-right .typing-left__image-left {
+  width: 30%;
+}
+body main .middle .typing-right .typing-left__image-left img {
+  width: 300px;
+  height: 250px;
+}
+body main .Recruitment {
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/Recruitment.png);
+}
+body main .Recruitment .Recruitment__login {
+  width: 150px;
+  background-image: linear-gradient(90deg, yellow, green);
+}
+body main .Recruitment .Recruitment__login a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,119 @@
+body.dark {
+  background-color: #000;
+  main {
+    header {
+      nav {
+        ul {
+          li {
+            a {
+              color: #ffffff !important;
+            }
+          }
+          button {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .middle {
+      .typing-left {
+        p {
+          color: #ffffff;
+        }
+      }
+      .typing-right{
+        .typing-right__about{
+            p{
+                color: #ffffff;
+            }
+        }
+      }
+    }
+    .Recruitment{
+        .Recruitment__login{
+            a{
+                color: #ffffff !important;
+            }
+        }
+    }
+  }
+}
+body {
+  main {
+    header {
+      nav {
+        ul {
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+            }
+          }
+          button {
+            background-color: rgba(255, 255, 255, 0);
+            border: none;
+          }
+        }
+      }
+      .over {
+        width: 50%;
+        height: 100px;
+      }
+      .carousel {
+        .carousel-indicators {
+          button {
+            width: 10px;
+            height: 10px;
+          }
+        }
+        .carousel-inner {
+          .images {
+            width: 100%;
+            height: 500px;
+          }
+        }
+      }
+    }
+    .middle {
+      .typing-left {
+        height: 250px;
+        p {
+          width: 350px;
+        }
+      }
+      .image-right {
+        height: 250px;
+      }
+      .typing-right{
+        direction: rtl;
+        .typing-right__about{
+            width: 40%;
+            p{
+                width: 350px;
+            }
+        }
+       
+        .typing-left__image-left{
+            width: 30%;
+            img{
+                width: 300px;
+                height: 250px;
+            }
+        }
+      }
+    }
+    .Recruitment{
+        height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(/images/Recruitment.png);
+        .Recruitment__login{
+            width: 150px;
+            background-image: linear-gradient( 90deg , yellow , green);
+            a{
+                text-decoration: none;
+            }
+        }
+      }
+  }
+}
